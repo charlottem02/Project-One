@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: lightblue;
 }
 .nav-link{
     font-weight: lighter;
@@ -21,14 +21,15 @@ header p{
     font-style: italic;
 }
 .aboutus{
+    margin-top: 20px;
     text-align: center;
 }
 .aboutus i{
-    font-size: 30px;
+    font-size: 50px;
     padding: 25px 20px;
     /*change the color*/
     color: #fff;
-    background-color: #F08080;
+    background-color: #B7D6F9;
     
     /*resize container of icon*/
     width: 80px;
@@ -41,4 +42,48 @@ header p{
 .aboutus span{
     width: 200px;
     display: inline-block;
+}
+.team{
+       margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Oswald';
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*object fit will crop and center image based on width and heigh*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.getinvolved{
+    text-align: center;
+    font-family: 'Oswald';
+    background-color: #DAE9F9;
+    /*adds padding n top and bottom*/
+     padding: 50px 0 80px;
+    margin-top:50px;
+    width:100%;
+}
+.getinvolved h2{
+    color:#AEC0D4;
+}
+.getinvolved i{
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+}
+.options{
+    padding: 30px;
+    margin:10px;
+    border:1px solid #ccc;
+    
+    background-color: #fff;
+    border-radius:5px;
+    margin-top: 30px;
+}
+.contact .btn{
+    border-radius:0;
+    width:100%;
+    font-size: 15px;
 }
