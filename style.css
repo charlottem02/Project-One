@@ -87,3 +87,9 @@ header p{
     width:100%;
     font-size: 15px;
 }
+.footer{
+    text-align: right;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: bolder;
+}
